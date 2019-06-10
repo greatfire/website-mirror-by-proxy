@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Stream directly for some types.
+RewriteCond %{HTTP:X-Requested-With} ShockwaveFlash/.* [OR]
+RewriteCond %{REQUEST_URI} \.mp4$
+RewriteRule ^(https?:/)(.*)$ $1/$2 [L,P]
+
+RewriteCond %{REQUEST_FILENAME} !index.php
+RewriteCond %{REQUEST_FILENAME} !rwb/.*
+RewriteRule . index.php [L]

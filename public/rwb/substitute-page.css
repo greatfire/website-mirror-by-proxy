@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-align: center;
+}
+
+ul {
+	border: thin solid #ddd;
+	margin: auto;
+	padding: 5px;
+	width: 300px;
+}
+
+li {
+	margin-left: 50px;
+}
+
+h1 {
+	color: #aaa;
+	text-align: center;
+}
+
+div.top {
+	color: #222;
+	font-size: 90%;
+	padding: 5px;
+	text-align: center;
+}
+
+iframe {
+	border: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	padding: 0;
+}

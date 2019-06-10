@@ -1,0 +1,4 @@
+http://localhost/website-mirror-by-proxy/public/
+http://wmbp1.lo.cal/website-mirror-by-proxy/public/
+http://wmbp2.lo.cal/website-mirror-by-proxy/public/
+http://wmbp3.lo.cal/website-mirror-by-proxy/public/
